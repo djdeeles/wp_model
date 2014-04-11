@@ -1,0 +1,271 @@
+/*
+Theme Name: Best Modelim
+Description: 
+Version: 1.1
+*/
+
+body { background: url(resim/siyahbg.jpg); background-repeat: repeat; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; width: 100%; height: 100%; overflow-x: hidden; color: #CCC; }
+ul { list-style-type: none; }
+:focus { outline: none; }
+.ballon { z-index: 1000; color: #666; font-weight: 700; padding-bottom: 1px; cursor: pointer }
+#tt { position: absolute; display: block; font-size: 12px; line-height: 18px; }
+#ttcont { display: block; border: #000 solid 1px; margin-left: 5px; background: #141414; color: #fff; padding: 2px 12px 3px 7px; }
+a { text-decoration: none; color: #ccc }
+a:hover { text-decoration: none; color: #e12b9d; }
+.icerik a { color: #e12b9d; }
+.icerik li { list-style-type: none; background: url(resim/sprite.png) -893px -93px no-repeat; padding: 2px 0 0 17px; }
+#ustmenu1 { width: 950px; display: block; height: 39px; font-size: 12px; background: url(resim/sprite.png) 0 -1px no-repeat; margin: 10px auto 0; padding: 0; }
+#ustmenu1 ul { list-style-type: none; width: auto; margin: 0; padding: 0; }
+#ustmenu1 ul li a { display: block; float: left; color: #f5f5f6; height: 28px; padding: 10px 5px 5px 15px; }
+.menu-menu-container { }
+.menu-menu-container ul { font-weight: bold; }
+.logokismi { width: 950px; margin: 0 auto; height: 400px; padding-top: 10px; padding-bottom: 10px; }
+.logo { margin: 0 auto; width: 370px; }
+#altkisim { width: 100%; height: auto; color: #eaeaea; }
+#kucuklogo { float: left; padding: 5px 15px 0 0; }
+.icerikbasliyor { width: 950px; margin: 0 auto; }
+.solkisim { width: 628px; float: left; font-size: 13px; margin: 0; padding: 0; }
+.solkisim2 { width: 470px; float: right; font-size: 13px; margin: 0; padding: 0; }
+.sagkisim { width: 300px; float: right; font-size: 12px; color: #00032b; margin: 0; padding: 0; }
+.yazilar { overflow: hidden; line-height: 15px; color: #f2f2f2; font-weight: 400; font-size: 13px; padding: 0; }
+.yazilar h2 { font-size: 22px; font-weight: 400; color: #ededed; margin: 0; }
+.yorumsayi { font-size: 14px; color: #ededed; margin: 5px 0 0 10px; }
+.cancel-comment-reply { padding-bottom: 10px; }
+.baslik { color: #ededed; font-size: 20px; line-height: 40px; padding: 0px 8px; margin: 0; }
+.bilgi { width: auto; float: left; font-size: 11px; color: #ededed; height: 8px; margin-top: -7px; padding: 0 0 0 10px; }
+.bilgi a:hover, .bilgi a { color: #ededed; }
+.yazaryazilari { width: 615px; }
+h2.yazaryazibaslik a { color: #222222; font-size: 14px; list-style-type: none; margin-left: 2px; background: url(resim/sprite.png) -893px -93px no-repeat; line-height: 20px; padding: 5px 0 5px 17px; }
+.yorumsayisi { float: right; padding-left: 20px; margin: 0; }
+.widget_categories ul li { float: left; width: 115px; margin: 0; }
+.widget_categories li { float: left; width: 150px; color: #000500; margin: 0; }
+.widgettitle { background: url(resim/sprite.png) -468px -42px no-repeat; width: 288px; height: 33px; color: #f9f9f9; font-size: 17px; font-weight: bold; margin: 8px 0; padding: 7px 0 0 12px; }
+.widgettitle2 { background: url(resim/sprite.png) -468px -42px no-repeat; width: 288px; height: 31px; color: #f4f4f4; font-size: 17px; font-weight: bold; margin: 10px 0 -3px 0; padding: 7px 0 0 12px; }
+.widgettitle3 { background: url(resim/sprite.png) 0 -1px no-repeat; border-radius: 5px; width: 625px; height: 31px; color: #f4f4f4; font-size: 17px; font-weight: bold; margin: 10px 0 -13px 0; padding: 7px 6px 0 10px; }
+.textwidget { line-height: 20px; margin-left: 5px; }
+.temizle { clear: both; }
+.yanmenu { background: url(resim/back.png); border-radius: 3px; font-size: 14px; color: #ccc; list-style: none; border-style: none; }
+.yanmenusirala { padding: 5px }
+.yanmenu ul { border-style: none; margin: 0; padding: 0; }
+.yanmenu li ul li { list-style-type: none; background: url(resim/sprite.png) -893px -93px no-repeat; margin-left: 13px; padding: 5px 0 5px 17px; }
+.yanmenu .children { margin-left: 22px; margin-bottom: -5px; margin-top: 3px; }
+.etiketler { width: 615px; margin-top: 5px; line-height: 25px; padding-left: 2px; border-radius: 3px; background: url(resim/back.png); }
+.etiketler a:hover { margin-bottom: 4px; padding: 2px 4px; }
+.widget_tag_cloud { padding-bottom: 5px; }
+.widget_tag_cloud a:link, .widget_tag_cloud a:visited { color: #ececec; display: inline-block; border-radius: 3px; background: url(resim/back.png); margin: 4px; padding: 2px 4px; }
+.widget_tag_cloud a:hover { color: #e12b9d; border-radius: 3px; background: url(resim/back.png); }
+.yorumlar { width: 460px; height: auto; margin: -5px; }
+.yorum-liste { display: block; line-height: 20px; border-radius: 3px; background: url(resim/back.png); min-height: 50px; margin: 5px 5px 5px 70px; padding: 10px; }
+#yorumformu { margin-top: -20px; width: 430px; }
+#yorumformu input { background: url(resim/back.png); width: 133px; height: 30px; border: 1px solid #9f9f9f; overflow: hidden; border-radius: 3px; color: #ececec; margin: 10px 0; padding: 0 15px 0 10px; }
+.yorum-paneli textarea { width: 260px; height: 113px; border: 1px solid #9f9f9f; margin-top: 10px; background: url(resim/back.png); border-radius: 3px; color: #ededed; padding: 10px; }
+.admin-yorum textarea { width: 430px; height: 110px; border: 1px solid #9f9f9f; margin-top: -3px; background: url(resim/back.png); border-radius: 3px; color: #ececea; padding: 10px; }
+#respond:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#yorumformu #submit { background: url(resim/sprite.png) -779px -47px no-repeat; width: 150px; height: 28px; border: none; margin: 5px 5px 0 0; }
+#yorumformu #submit:hover { background: url(resim/sprite.png) -629px -283px no-repeat; opacity: .800000011921; }
+.commentlist { width: 575px; text-align: left; margin: 0 auto; padding: 0; }
+.commentlist li, #yorumformu input, #yorumformu textarea { font: .9em 'Lucida Grande', Verdana, Arial, Sans-Serif; line-height: 22px; }
+.yorum-listesi { margin-left: -40px; background: none; }
+.yorum-yazar { width: 100%; margin: 0 0 10px; }
+.yorum-tarih { width: 180px; margin: 0 0 5px; }
+.yorum-yazar small { float: right; width: auto; color: #ececec; font-size: .85em; }
+.yorum-yazar cite a { width: 180px; text-decoration: none; }
+.avatar { float: left; display: block; width: 60px; height: 60px; border-radius: 3px; background: url(resim/back.png); padding: 4px; }
+.yanit { text-align: right; display: block; margin-top: -10px; }
+.comment-reply-link { text-transform: uppercase; font-size: .8em; font-weight: 700; color: #ccc; text-decoration: none; }
+a.comment-reply-link:hover { color: #bbb; }
+.yorum-icerik { margin-top: -10px; min-width: 108px; }
+.yorum-listesi ul { margin: 10px 0; padding: 0; }
+.yorum-listesi ul .yorum-yazar { margin: 0 0 10px; }
+.yorum-listesi ul ul { padding: 0; }
+.yorum-yazmak-istermisin { background: url(resim/sprite.png) -304px -187px no-repeat; color: #ececec; font-size: 20px; font-weight: 700; width: 440px; height: 40px; margin-top: 10px; margin-bottom: 0; border-radius: 3px; padding: 7px 0 0 12px; }
+.wp-pagenavi { text-align: center; float: left; height: 30px; font-size: 14px; }
+.wp-pagenavi a, .wp-pagenavi a:link { color: #f6f6f6; background: #191919; border-radius: 3px; margin: 3px; padding: 4px 8px; }
+.wp-pagenavi a:hover { background: #e12b9d; color: #f0f0f0; }
+.wp-pagenavi span.pages { border-radius: 3px; background: #191919; margin: 3px; padding: 4px 8px; }
+.wp-pagenavi span.current { border-radius: 3px; background: #e12b9d; color: #ececec; margin: 3px; padding: 4px 8px; }
+.wp-pagenavi span.extend { border-radius: 3px; color: #444444; background: #191919; margin: 3px; padding: 4px 8px; }
+acronym, abbr, span.caps { cursor: help; }
+acronym, abbr { border-bottom: 1px dashed #999; }
+blockquote { padding-left: 20px; border-left: 5px solid #ddd; margin: 15px 30px 15px 10px; }
+blockquote cite { display: block; margin: 5px 0 0; }
+pre { border: #9a9a9a solid 1px; color: blue; background: #f3f2ed; margin: 10px; padding: 10px; }
+code { font-size: 1em; color: #050404; }
+img.aligncenter { max-width: 600px; display: block; margin-left: auto; margin-right: auto; overflow: hidden; padding: 5px; }
+img.alignright { max-width: 600px; float: right; display: block; margin: 10px 0 10px 10px; padding: 5px; }
+img.alignleft { max-width: 600px; float: left; display: block; margin: 0 10px 10px 0; padding: 5px; }
+img.alignnone { max-width: 600px; display: block; margin: 10px 0; padding: 5px; }
+.center { text-align: center; }
+a img, img { border: none; }
+#tttop, #ttbot { display: block; height: 5px; margin-left: 5px; overflow: hidden; }
+input, textarea { border: #969696 solid 1px; margin: 5px 5px 1px 0; padding: 2px; }
+.has2 { width: 470px; background: url(resim/back.png); border-radius: 3px; margin: 5px 0 0; }
+.has3 { width: 470px; background: url(resim/back.png); border-radius: 3px; margin: 5px 0 0; }
+.has4 { width: 630px; background: url(resim/back.png); border-radius: 3px; margin: 5px 0 0; }
+.ana-tam { float: left; width: 625px; height: auto; overflow: hidden; border-radius: 3px; background: url(resim/back.png); margin: 10px 0; padding: 10px 8px 5px 8px; }
+.ana-kutu { background: url(resim/stripe.png); float: left; width: 146px; height: 210px; overflow: hidden; border-radius: 3px; margin: 0px 10px 10px 0; padding: 0; }
+.ana-kutu:hover a { color: #e12b9d; }
+.ana-kutu:hover { background: url(resim/stripe2.png); opacity: 0.8; }
+.ana-ortala { width: 140px; height: 210px; overflow: hidden; margin: 0 auto; padding: 0; }
+.ana-resim { float: left; width: 140px; height: 160px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.ana-resim:hover { }
+.ana-resim img { float: left; width: 140px; height: 160px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.ana-baslik { float: left; width: 100%; height: auto; overflow: hidden; border: 0; font-size: 12px; font-weight: 700; color: #f15a2b; text-align: center; margin: 4px 0 4px 0; padding: 0; }
+.ana-baslik a { float: left; width: 100%; height: auto; overflow: hidden; border: 0; font-size: 14px; color: #f5f5f6; text-align: center; margin: 0; padding: 0; }
+.ana-sayac { float: right; width: 100%; height: 12px; overflow: hidden; border: 0; font-size: 11px; font-weight: 400; color: #ececea; text-align: right; margin: 2px 0 0; padding: 0; }
+.ana-tarih { float: left; width: 100%; height: 12px; overflow: hidden; border: 0; font-size: 11px; font-weight: 400; color: #3f3f3f; text-align: right; margin: 5px 3px 0 0; padding: 0; }
+.sag-kutu { float: left; width: 100px; height: 138px; overflow: hidden; border-radius: 3px; margin: 0 2px 0 2px; padding: 0; }
+.sag-ortala { width: 105px; height: 145px; overflow: hidden; border-radius: 3px; margin: 0 auto; padding: 0; }
+.sag-ortala:hover { opacity: 0.8; }
+.sag-resim { float: left; width: 105px; height: 145px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.sag-resim img { width: 105px; height: 145px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.kat-detaylar { width: 454px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #ececea; margin: 10px 0 0; padding: 8px; }
+.kat-detaylar2 { width: 454px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #ecece8; margin: 10px 0 0; padding: 8px; }
+.kat-detaylar3 { width: 450px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #f5f5f2; margin: 10px 0 0; padding: 10px; }
+.vip { float: left; position: absolute; z-index: 5; border: 0; margin: 0; padding: 0; border-radius: 3px; }
+#theater { background-color: #000; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 25; display: none; }
+#altbilgi { margin: 10px 0; font-size: 10px; text-align: center; }
+#newsletter { background: url(resim/sprite.png) -468px -93px no-repeat; height: 44px; padding-left: 14px; padding-right: 12px; padding-top: 35px; width: 274px; }
+#newsletter .input-holder input { background: none 0 0 repeat scroll transparent; border: none medium; color: #000; height: 19px; width: 179px; line-height: 19px; padding: 3px 9px; }
+#newsletter .emailBtn { background: url(resim/sprite.png) -170px -282px no-repeat; width: 62px; height: 33px; border: none; margin-left: 4px; margin-top: 3px; cursor: pointer; float: left; font-size: 16px; text-indent: 999px; }
+.sosyal-kutu { background: url(resim/sprite.png) -468px -42px no-repeat; width: 288px; height: 33px; text-indent: -9999px; margin: 5px 0; padding: 7px 0 0 12px; }
+a.twit1 { margin-left: 23px; float: left; display: block; width: 80px; height: 26px; background: url(resim/sprite.png) -748px -246px no-repeat; text-indent: -9999px; }
+a:hover.twit1 { background-position: -828px -246px }
+a.face1 { float: left; display: block; width: 77px; height: 26px; background: url(resim/sprite.png) -469px -247px no-repeat; text-indent: -9999px; }
+a:hover.face1 { background-position: -546px -247px; }
+a.rss { float: left; margin-left: 23px; display: block; width: 48px; height: 22px; background: url(resim/sprite.png) -635px -247px no-repeat; text-indent: -9999px; }
+a:hover.rss { background-position: -683px -247px; }
+.stepcarousel { position: relative; overflow: scroll; width: 950px; height: 220px; background: #414040; }
+.stepcarousel .belt { position: absolute; left: 0; top: 0; }
+.belt img { width: 147px; height: 200px; }
+.stepcarousel .panel { float: left; overflow: hidden; width: 147px; margin: 8px; padding: 1px; border-radius: 3px; }
+#renk { float: right; margin: 10px; }
+.aciklama { width: 460px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #f8f8f8; margin: 5px 0 0 0; padding: 5px; }
+.aciklama2 { width: 454px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #f0f0f0; margin: 8px 0 0; padding: 8px; }
+.aciklama3 { width: 460px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #fcfcfb; margin: 8px 0 0; padding: 5px; }
+.aciklama4 { width: 938px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #f9f9f9; margin: 8px 0 0; padding: 6px; }
+.aciklama-ana { width: 470px; float: left; height: auto; }
+.aciklamaresim { float: left; max-width: 455px; border-radius: 3px; display: block; }
+.aciklamaresim img { border-radius: 3px; max-width: 454px; }
+#dis_bolme { width: auto; height: auto; margin: 5px 0 0 2px; }
+.ic_bolme { float: left; margin: 0; }
+.dublaj { background: url(resim/sprite.png) -77px -192px no-repeat; }
+#searchformana { float: right; width: 264px; }
+#searchform { top: 0; height: 40px; width: 300px; }
+#searchform #s { height: 17px; width: 150px; color: #999; border: 1px solid #9D6FC2; border-radius: 3px; margin: 6px 5px 0 10px; padding: 3px 7px 2px 5px; }
+#searchform #searchsubmit { background: url(resim/sprite.png) -780px -81px no-repeat; height: 25px; width: 70px; border: none; text-indent: -999%; line-height: 1px; margin-top: 6px; }
+#searchform #searchsubmit:hover { background: url(resim/sprite.png) -2px -174px no-repeat; height: 24px; }
+.kategori_baslik { width: 625px; float: left; height: auto; overflow: hidden; clear: both; border-radius: 3px; background: url(resim/back.png); color: #f9f9f9; font-weight: bold; font-size: 16px; margin: 8px 0 0; padding: 8px 6px 8px 10px; }
+.index_baslik { width: 620px; float: left; height: auto; overflow: hidden; clear: both; border-radius: 3px; background: url(resim/back.png); color: #f4f4f4; font-size: 16px; margin: 10px 0 0; padding: 8px 0 8px 10px; }
+#ustmenu a { color: #e7e5e5; margin: 0; }
+#ustmenu a:hover { color: #e12b9d; }
+#ustmenu li { float: left; position: relative; list-style: none; margin: 0 5px; }
+#ustmenu { width: 950px; display: block; height: 39px; font-size: 15px; background: url(resim/sprite.png) 0 -1px no-repeat; border-radius: 3px; margin: 0 auto; padding: 0; margin-top: -285px; }
+#ustmenu ul { width: auto; margin: 0; padding: 0; }
+#ustmenu ul li a { display: block; float: left; color: #f4f4f4; height: 23px; padding: 9px 0px 5px 15px; }
+#ustmenu ul ul { display: none; width: 185px; position: absolute; top: 40px; left: 0; border-radius: 3px; background: url(resim/back.png); margin: 0; padding: 0; }
+#ustmenu ul ul li { float: none; margin: 0; padding: 3px; }
+#ustmenu li:hover >ul { display: block; }
+#ustmenu ul ul li:hover a, .cssmenu li:hover li a { background: none; border: none; color: #f60; }
+#wrapper { margin: auto; background: url(resim/topbg.jpg); background-repeat: repeat-x; }
+.bolstar { background: url(resim/stripe.png); width: 146px; height: auto; margin: 190px 0 0; padding: 3px; }
+.sosyalles { float: right; width: 350px; height: auto; }
+.puanver { float: right; width: 160px; height: 32px }
+.sosyaller { float: left; width: 250px; height: 32px; }
+.TabbedPanels { overflow: hidden; clear: none; width: 100%; margin: 0; padding: 0; }
+.TabbedPanelsTabGroup { margin: 0; padding: 0; }
+.TabbedPanelsTab { position: relative; top: 1px; float: left; font-size: 14px; list-style: none; cursor: pointer; margin: 0 1px 0 0; padding: 5px 10px; border-radius: 3px; border: 1px dashed #e12b9d; margin: 7px 0 0 10px; }
+.TabbedPanelsTabSelected { background: #e12b9d; }
+.TabbedPanelsTabSelected a { color: #fff; }
+.TabbedPanelsContentGroup { clear: both; }
+.TabbedPanelsContent { overflow: hidden; padding: 5px 0 10px 0; }
+.TabbedPanelsContent li { background: url(resim/sprite.png) -893px -93px no-repeat; margin-left: 13px; padding: 5px 0 5px 17px; }
+.TabbedPanelsContent ul li { float: left; width: 122px; margin-left: 10px; font-size: 12px; }
+.VTabbedPanels { background: url(resim/back3.png); overflow: hidden; }
+.VTabbedPanels .TabbedPanelsTabGroup { float: left; width: 10em; height: 20em; background: url(resim/back3.png); position: relative; }
+.VTabbedPanels .TabbedPanelsTab { float: none; border-top: none; border-left: none; border-right: none; margin: 0; }
+.VTabbedPanels .TabbedPanelsContentGroup { clear: none; float: left; width: 30em; height: 20em; padding: 0; }
+.your-name input, .your-email input, .your-subject input, .wpcf7 textarea { border-radius: 3px; outline: none; border: 1px #0391ed; width: 250px; height: 18px; padding: 5px; margin: 5px 0 5px 0; }
+.wpcf7 textarea { width: 350px; height: 100px; border-radius: 3px; }
+.wpcf7-submit { width: 100px; height: 30px; cursor: pointer; background: #121212; border-radius: 3px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); color: #eee; font-size: 15px; border: none; text-align: center; margin-bottom: 2px; padding: 5px; }
+.wpcf7-submit:hover { background: #e12b9d; color: #fff; }
+#reklam728, .alignright, .aciklama_reklam { width: 950px; text-align: center; margin: 0 auto; /*padding: 10px 0 10px 0;*/ }
+#ustmenu1 ul li, #ustmenu ul li { display: block; float: left; margin: 0; }
+#ustmenu1 ul li a:hover, #ust ul li a:hover { color: #e12b9d; }
+#ustmenu1 ul ul, .widget_categories .children { display: none; }
+.alignleft, #newsletter .input-holder, .alignleft { float: left; }
+.widget_categories ul, .TabbedPanelsTabGroup ul { list-style: none; width: 300px; display: block; overflow: hidden; margin: 0; padding: 0 0 0 13px; }
+.yanmenulink, .yanmenu ul ul { color: #ccc; }
+.children .yorum-liste, .TabbedPanelsTabHover, .VTabbedPanels .TabbedPanelsTabSelected { background: url(resim/back.png); }
+.logoh3:hover, h2.baslik a:hover, .yorum-yazar a, .rastgeleyazi a:hover, h2.yazaryazibaslik a:hover { color: #e12b9d; }
+
+/*     Galeri     */
+.post-screenshot ul { overflow: hidden; }
+.post-screenshot li { float: left; margin: 3px 1px -2px 3px; }
+.post-screenshot li img { border-radius: 3px; }
+.post-screenshot li img:hover { opacity: 0.5; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+ol, ul, li { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+a img { border: none; }
+.sag-kutu2 { float: left; width: 90px; height: 120px; overflow: hidden; border-radius: 3px; margin: 0 0 7px 7px; padding: 0; }
+.sag-kutu2:hover { }
+.sag-ortala2 { width: 90px; height: 120px; overflow: hidden; margin: 0 auto; padding: 0; }
+.sag-resim2 { float: left; width: 90px; height: 120px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.sag-resim2:hover { opacity: 0.8; }
+.sag-resim2 img { width: 90px; height: 120px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.webkutu { float: left; width: 105px; padding: 3px; margin: 0 3px 3px 3px; display: none; }
+.webkutu a { color: #e12b9d; }
+.ustkutu { float: left; width: auto; padding: 3px; }
+.buyukkutu { float: left; width: 150px; padding: 3px; }
+.ufakkutu { float: left; width: 145px; padding: 3px 0; }
+.ufakkutu a { color: #e12b9d; }
+.telkutu { float: left; width: 170px; padding: 3px; margin: 0 }
+.telkutu a { color: #e12b9d; }
+.sehirkutu { float: left; width: 170px; padding: 3px; }
+.sehirkutu a { color: #e12b9d; }
+.ortakutu { float: left; width: 80px; padding: 3px; margin: 0 5px 0 0; }
+.olcukutu { float: left; width: 80px; padding: 3px; }
+.olcukutu a { color: #e12b9d; }
+.ucretkutu { display: none; float: left; width: 105px; padding: 3px; }
+.ucretbilgi { float: left; width: 110px; height: 74px; padding: 5px 0 0 0; }
+.ucretbilgi a { color: #e12b9d; }
+.tarife { float: left; width: 108px; padding: 1px; margin: 3px 0 3px 2px; }
+.tarife a { color: #e12b9d; }
+.bilgibaslik { width: auto; padding: 1px; margin: 5px 5px 5px 5px; font-size: 17px; display: none; }
+.bilgibaslik a { color: #e9e9e9; }
+.bilgibaslik2 { float: left; width: 250px; padding: 1px; margin: 0px 5px 5px 0px; font-size: 17px; display: none; }
+.bilgibaslik2 a { color: #f0f0f0; }
+.bilgibaslik3 { width: auto; padding: 1px; margin: 0px 5px 5px 0px; font-size: 17px; display: none; }
+.bilgibaslik3 a { color: #f0f0f0; }
+.sayacbaslik { float: right; width: auto; padding: 1px; margin: 0px 5px 5px 0px; font-weight: bold; }
+.sayacbaslik a { color: #f0f0f0; }
+.paylasbaslik { float: left; width: 75px; padding: 1px; margin: 5px 5px 5px 0px; font-size: 17px; }
+.paylasbaslik a { color: #fbfbfb; }
+.sehir-baslik { float: left; width: 100%; height: auto; overflow: hidden; border: 0; font-size: 12px; font-weight: 700; color: #f15a2b; text-align: center; margin: 4px 0 4px 0; padding: 0; }
+.sehir-baslik a { float: left; width: 100%; height: auto; overflow: hidden; border: 0; font-size: 12px; color: #fcfcfe; text-align: center; margin: 0; padding: 0; }
+.reklamlar-alan { float: left; width: 950px; height: auto; margin: auto; padding: 5px 0px 0px 0px; }
+.reklamlar { float: left; width: 180px; height: 300px; margin: 5px; padding: 0; }
+.semtkutu { float: left; width: 146px; padding: 3px; margin: 0 0 0 3px; }
+.semtkutu a { color: #e12b9d; }
+.egitimkutu { float: left; width: 146px; padding: 3px; margin: 0 0 0 3px; }
+.egitimkutu a { color: #e12b9d; }
+.gorusmekutu { float: left; width: 105px; padding: 3px; margin: 0 0 0 3px; }
+.gorusmekutu a { color: #e12b9d; }
+.tabkategori { width: 300px; height: 40px }
+.aciklama5 { width: 930px; float: left; height: auto; overflow: hidden; clear: both; font-size: 12px; font-weight: 400; line-height: 19px; border-radius: 3px; background: url(resim/back.png); color: #f9f9f9; margin: 8px 0 8px 0; padding: 10px; }
+.ana-kutu2 { background: url(resim/stripe.png); float: left; width: 180px; height: 260px; overflow: hidden; border-radius: 3px; margin: 2px 6px 2px 0; padding: 0; }
+.ana-kutu2:hover { background: url(resim/stripe2.png); opacity: 0.8; }
+.ana-kutu2:hover a { color: #e12b9d; }
+.ana-ortala2 { width: 174px; height: 260px; overflow: hidden; margin: 0 auto; padding: 0; }
+.ana-resim2 { float: left; width: 174px; height: 205px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.ana-resim2:hover { }
+.ana-resim2 img { float: left; width: 174px; height: 205px; overflow: hidden; border-radius: 3px; margin: 0; padding: 0; }
+.ana-baslik2 { float: left; width: 100%; height: 20px; overflow: hidden; border: 0; font-size: 12px; font-weight: 700; color: #f15a2b; text-align: center; margin: 4px 0 4px 0; padding: 0; }
+.ana-baslik2 a { float: left; width: 100%; height: 20px; overflow: hidden; border: 0; font-size: 14px; color: #f5f5f6; text-align: center; margin: 0; padding: 0; }
+.timer { width: 100%; text-align: center; float: right; padding: 5px 0px; color: #fff; font-size: 10px; }

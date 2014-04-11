@@ -1,0 +1,44 @@
+<?php get_header(); ?>
+
+<div class="solkisim">
+  <div style="font-family: Calibri; color: #e12b9d; text-shadow:0 5px 5px #CCC; font-size: 125px; font-style:italic;">
+    <center>
+      404
+    </center>
+  </div>
+  <div style="font-family: Calibri; color: #FFF; text-shadow:0 2px 2px #000; font-size: 30px;">
+    <center>
+      Aradığınız sayfa bulunamadı.
+    </center>
+  </div>
+  <br />
+  <div style="font-family: Calibri; color: #FFF; text-shadow:0 2px 2px #000; font-size: 20px;">
+    <center>
+      Merhaba, sanırım bağlantı adresini yanlış yazdınız.
+    </center>
+    <br />
+    <strong>
+    <center>
+      Lütfen üst kısımdaki arama kutusunu kullanım ve tekrar deneyin.
+    </center>
+    </strong><br />
+    <center>
+      Eğer tüm bunlara rağmen 404 hatası almaya devam ederseniz site iletişim kısmından görüntülemeye çalıştığınız sayfa hakkında bilgi vermenizi rica ederiz. Sorun tarafımızca incelenerek en kısa zamanda giderilecektir.
+    </center>
+  </div>
+</div>
+<br/>
+<?php get_sidebar(); ?>
+<?php if (get_option('ilan_platin_ac_kapat')=='Aç') { ?>
+<?php include (TEMPLATEPATH . "/single_platin.php"); ?>
+<?php }else{ ?>
+<?php } ?>
+<?php if (get_option('ilan_gold_ac_kapat')=='Aç') { ?>
+<?php include (TEMPLATEPATH . "/single_gold.php"); ?>
+<?php }else{ ?>
+<?php } ?>
+<?php if (get_option('ilan_silver_ac_kapat')=='Aç') { ?>
+<?php include (TEMPLATEPATH . "/single_silver.php"); ?>
+<?php }else{ ?>
+<?php } ?>
+<?php get_footer(); ?>
